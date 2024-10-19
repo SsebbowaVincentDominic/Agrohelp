@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroHelp</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+header {
+    background: #f8f8f8;
+    padding: 20px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #606C38;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    margin: 15px 0;
+}
+
+.service-card p {
+    margin-bottom: 15px;
+}
+
+.service-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.services {
+    background-color: #FEFAE0;
+    padding: 80px 0;
+}
+.services h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.service-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.service-card img {
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+}
+
+.service-card h3 {
+    color: #4CAF50;
+    font-size: 1.5em;
+}
+
+.service-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.service-card .btn {
+    background-color: #4CAF50;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.service-card .btn:hover {
+    background-color: #45a049;
+}
+footer {
+    background: #283618;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+body {
+    background: #FEFAE0;
+}
+.icon {
+    background-image: url('img/facebook.png');
+}
+
+.icon1 {
+    background-image: url('img/insta.png');
+}
+
+.icon2 {
+    background-image: url('img/x.png');
+}
+
+.icon3 {
+    background-image: url('img/youtube.png');
+}
+.icon4 {
+    background-image: url('img/call.png');
+}
+.social{
+    display: inline-block;
+    gap: 10px;
+}
+.service-card .social {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.service-card .icon {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+.service-card .icon:hover {
+    transform: scale(1.1);
+}
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    background-repeat: no-repeat;            
+}
+
+        </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">AgroHelp</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="buttons">
+                <a href="pesticides.html" class="btn get-started">Get Started</a>
+            </div>
+        </nav>
+    </header>
+    <div class="nav2">
+        <div class="buttons1">
+            <a href="pesticides.html" class="btn pesticides">pesticides/insecticides</a>
+        </div><div class="buttons1">
+            <a href="seeds.html" class="btn Seeds">Seeds</a>
+        </div>
+       </div>
+
+   <!-- Company Section -->
+    <section class="services">
+    
+    
+    
+    <div class="service-container">
+        <div class="service-card">
+            <img src="img/Bukoola-Chemicals-logos-03-01.png" alt="Insecticide">
+            <h3>Bukoola chemical Industry Limited</h3>
+           <p>Enabling Harvests that put a smile on your face <br> Plot 12 Luthuli Ave Bugolobi Kampala <br>0800300803</p><br>
+        <div class="social">
+         <a href="https://www.facebook.com/bukoolachemicals" class="icon icon"></a>
+         <a href="https://twitter.com/BukoolaChemical" class="icon icon2"></a>
+         <a href="tel:+0800300803" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://bukoolachemicals.com/product-category/crop-protection/insecticides/" class="btn">Learn More</a>
+        </div>
+        
+        
+        
+        <div class="service-card">
+            <img src="img/daps.png" alt="Seeds">
+            <h3>Daps Distribution</h3>
+            <p>Enabling Harvests that put a smile on your face <br> Plot 11 Ssebaana Kizito Road, <br>Kampala Uganda<br>+256 414 581855</p><br>
+        <div class="social">
+         <a href="https://web.facebook.com/DapsDistribution" class="icon icon"></a>
+         <a href="https://twitter.com/DapsDistrbution" class="icon icon2"></a>
+         <a href="tel:+256414581855" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://www.dapsdistribution.com/index.php/product-line/our-product-catalog/insecticides" class="btn">Learn More</a>
+        </div>
+        
+        
+        <div class="service-card">
+            <img src="img/agrotab.png" alt="Pesticide">
+            <h3>Agritab Catalogue</h3>
+             <p>Find agric inputs fast <br> Container Village, Juba  Plaza, Ground, Floor Room<br> B025<br>+2567737515507</p><br>
+        <div class="social">
+         <a href="https://www.facebook.com/agritabcart/" class="icon icon"></a>
+         <a href="https://x.com/agritabcart?mx=2" class="icon icon2"></a>
+         <a href="tel:+2567737515507" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://agritabcart.com/product-category/insecticides/" class="btn">Learn More</a>
+        </div>
+    </div>
+    
+    
+    
+</section>
+
+
+<section class="services">
+    
+    
+    
+    
+    <div class="service-container">
+        <div class="service-card">
+            <img src="img/nsanja.png" alt="Insecticide">
+            <h3>Nsanja Agro Chemicals</h3>
+           <p>Specialist Weed Control,
+        <br> Fertiliser,seed,Equipment,
+        Plant Health Products <br> 123 Fifth Avenue <br>Ben Kiwanuka – Kampala UGANDA<br>(256)-392-176170</p><br>
+        <div class="social">
+         <a href="https://www.facebook.com/opalwordpress/" class="icon icon"></a>
+         <a href="https://twitter.com/opalwordpress/" class="icon icon2"></a>
+         <a href="tel:+256392176170" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://nsanjaagrochemicals.com/product-category/insecticides/" class="btn">Learn More</a>
+        </div>
+        
+        
+        
+        <div class="service-card">
+            <img src="img/osho.png" alt="Seeds">
+            <h3>Osho Chemicals</h3>
+            <p>Agrochemicals & solutions to improve your Farm's<br> Yield & Productivity<br>Osho Complex,Plot No.09,Sasio Rd<br> off Lunga lunga, Industrial Area<br>(256)-392-176170</p><br>
+        <div class="social">
+         <a href="https://www.facebook.com/OshoChem" class="icon icon"></a>
+         <a href="https://www.twitter.com/Oshochem" class="icon icon2"></a>
+         <a href="tel:+254800724211" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://www.oshochem.com/crop-health/" class="btn">Learn More</a>
+        </div>
+        
+        
+        <div class="service-card">
+            <img src="img/rainbow.png" alt="Pesticide">
+              <h3>RainBow AgroScience</h3>
+             <p>All About Growing<br> PO Box 200095,Plot M248,Megha Lane, Ntinda<br> Industrial Area, Nakawa Division, <br>Kampala, Uganda<br>+256200900660</p><br>
+        <div class="social">
+         <a href="https://www.facebook.com/Rainbow-Agro-Uganda-101002502574121" class="icon icon"></a>
+         <a href="https://www.youtube.com/channel/UC6DlsW1huMkCUiI1gCKLtfQ" class="icon icon3"></a>
+         <a href="tel:+256200900660" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://www.rainbowagro.com/uganda/solution_detail?id=75" class="btn">Learn More</a>
+        </div>
+    </div>
+    
+</section>
+
+<section class="services">
+    
+    <div class="service-container">
+        <div class="service-card">
+            <img src="img/real.png" alt="Insecticide">
+            <h3>Real IPM</h3>
+           <p>A Member of Biobest Group<br>THE REAL IPM CO.(KENYA) LTD
+        <br> P.O.BOX 4001-01002MADARAKA,THIKA,KENYA<br>+254725806086</p><br>
+        <div class="social">
+         <a href="https://www.facebook.com/Real-IPM-191910321017942/" class="icon icon"></a>
+         <a href="https://www.youtube.com/channel/UCLqKgyPRxL00d_qO_OVP1cw" class="icon icon3"></a>
+         <a href="tel:+254725806086" class="icon icon4"></a>
+     </div>
+        
+            <a href="https://realipm.com/c/biopesticides/" class="btn">Learn More</a>
+        </div>
+        
+</section>
+</body>
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 AgroHelp. All rights reserved.</p>
+    </footer>
+</body>
+</html>

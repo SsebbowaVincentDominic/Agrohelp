@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #FEFAE0;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3{
+  font-size: 22px;
+}
+
+h2{
+  font-size: 28px;
+  text-align: center;
+  color: #DDA15E;
+}
+
+header {
+    background: #f8f8f8;
+    padding: 20px 0;
+}
+
+img {
+    max-width: 100%; /* Ensures the image never exceeds the width of its container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any extra space below the image */
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #606C38;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.buttons1 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.nav2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pesticides, .Insecticides, .Seeds {
+    background-color: transparent;
+    color: #606C38;
+    margin: 20px 0 10px 0;
+    border-color: #606C38;
+    border-width: 1px;
+    border-style: solid;
+}
+.contact1 {
+    background-color: transparent;
+    color: #606C38;
+    margin: 20px 0 10px 0;
+    border-color: #606C38;
+    border-width: 3px;
+    border-style: solid;
+}
+.Visit{
+    margin-top: 10px;
+    background-color: #606C38;
+    color: #fff;
+    margin: 20px 0 10px 0;
+}
+
+.get-started {
+    background-color: #606C38;
+    color: #fff;
+    margin: 20px 0 10px 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+background: url('img/tractor-field.jpg')no-repeat center center;
+  padding:50px 20px;
+  text-align: center;
+    color: white;    
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #606C38;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 20px;    
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h2 {
+    font-size: 40px;
+    color: #4CAF50;
+}
+
+.products, .why-choose, .testimonials, .contact {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.products .product-info, .choose-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details .detail, .choose-details .benefit-item {
+    margin-bottom: 20px;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card {
+    background-color: #e0e0e0;
+    height: 150px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+}
+
+.contact-info, .contact-form {
+    width: 45%;
+}
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+.Company-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.company-card{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    justify-content: space-around;
+}
+.company-card img {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer {
+    background: #283618;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
+    /* Stack navigation menu for mobile */
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    /* Show navigation when clicked */
+    nav ul.show {
+        display: flex;
+    }
+
+    /* Adjust hero section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    /* Stack stats section vertically */
+    .stats {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Stack product details vertically */
+    .products .product-info, .choose-info {
+        flex-direction: column;
+    }
+
+    .products .product-image, .choose-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .testimonials-grid {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Stack contact section */
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info, .contact-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra Small screens (up to 480px) */
+@media (max-width: 480px) {
+    /* Adjust hero text size for small screens */
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .btn-primary, .btn-secondary {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* Adjust stat item font size */
+    .stat-item h2 {
+        font-size: 32px;
+    }
+}
